@@ -59,7 +59,7 @@ costo_terrazzo_condomino = costo_terrazzo * (2/3) * millesimi / 1000
 
 # Se l'appartamento è un attico, aggiungere 1/3 del costo del terrazzo
 if is_attico:
-    costo_terrazzo_condomino += costo_terrazzo * (1/3) / 1000
+    costo_terrazzo_condomino += costo_terrazzo * (1/3)
 
 # Calcolo del costo totale da sostenere
 costo_totale = costo_facciata_condomino + costo_terrazzo_condomino
